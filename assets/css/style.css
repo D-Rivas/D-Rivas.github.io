@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}  
+
+.titulo {
+    text-align: left;
+    background-color: black;
+    display: flex;
+    color:beige;
+    padding: 25px;
+    margin: 15;
+}
+
+.titulo p {
+    text-align: left;
+    display: flex;
+    padding-top: 140px;
+    padding-left: 0px;
+}
+
+.navbar {
+    padding: 10px 20px;
+    background-color: #6d6f71;
+}
+
+.navbar-toggler{
+    border:none;    
+}
+
+.navbar .nav-link{
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+.navbar .nav-link:hover {
+    background-color: white;
+    color: #3a5571
+}
+
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+
+
